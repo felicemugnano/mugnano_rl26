@@ -49,7 +49,7 @@ The script will prompt you for three inputs:
 1. **Image Name**: Select the Docker image you created during the build process.
 2. **Container Name**: Choose any name you prefer for your new container.
 3. **Shared Folder Path**: Specify the local directory that will be mounted to the container. Any modifications made here will sync in real-time. 
-   * *Recommended path:* `Desktop/<surname>_rl26/src` (the folder created in Step 1).
+   * *Recommended path:* `Desktop/<surname>_rl26/src`
 
 
 ### Testing the Container Volume (Shared Folder)
@@ -59,4 +59,4 @@ Once you have answered all three prompts, the container will launch with a direc
 touch prove.txt
 ```
 
-This will create a file inside the container. Check your local folder on your computer: you should see `prove.txt` appear there. Any changes you make to this file (locally or inside the container) will update instantly in both environments.
+This will create a file inside the container. Check your local folder on your computer: you should see `prove.txt` appear there. Any changes you make to this file (locally or inside the container) will update instantly in both environments. If it happens the connection has been succesful.
